@@ -46,7 +46,6 @@ button {
     box-shadow: 0 2px 4px gray;
     border: 2px solid #e94d58;
     font-size: 1.2em;
-    display: none;
 }
 
 button:nth-child(1) {
