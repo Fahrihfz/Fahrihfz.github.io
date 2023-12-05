@@ -21,3 +21,11 @@ noBtn.addEventListener("mouseover", () => {
     noBtn.style.left = randomX + "px";
     noBtn.style.top = randomY + "px";
 });
+
+function hideButton() {
+    document.querySelector(".no-btn").style.display = "none";
+    document.querySelector("button").style.display = "none";
+  }
+  
+  // Ketika button ditekan
+  document.querySelector("button").addEventListener("click", hideButton);
