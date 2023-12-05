@@ -23,7 +23,6 @@ noBtn.addEventListener("mouseover", () => {
 });
 
 function hideButton() {
-    document.querySelector(".no-btn").style.display = "none";
     document.querySelector("button").style.display = "none";
   }
   
